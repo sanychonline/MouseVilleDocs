@@ -1168,3 +1168,15 @@ h1 {
     max-width: 42vw;
   }
 }
+
+/* Shared support and legal pages use CheeseVille's golden cheese palette. */
+.topbar, .home .topbar { background: rgba(137, 65, 14, .94); }
+body:not(.home) { background: radial-gradient(circle at 12% 12%, rgba(255, 211, 92, .38), transparent 22rem), radial-gradient(circle at 88% 18%, rgba(239, 137, 24, .24), transparent 24rem), linear-gradient(180deg, #FFFDF3, #FFF0C5 54%, #F7D28A); }
+.legal-hero { background: radial-gradient(circle at 82% 16%, rgba(255, 211, 92, .52), transparent 23rem), linear-gradient(145deg, #773508, #DF7612 54%, #FFC93D); }
+.summary { border-color: rgba(223, 118, 18, .34); background: rgba(255, 201, 61, .24); }
+.toc, .stat-card, .faq details { border-color: rgba(223, 118, 18, .24); background: rgba(255, 252, 241, .82); }
+.faq details[open] { background: #FFFFFF; box-shadow: 0 14px 36px rgba(119, 53, 8, .12); }
+.document p, .document li, .faq-answer { color: #704716; }
+.page-card { background: linear-gradient(145deg, #773508, #CF6710 56%, #FFC33B); }
+.page-card::after { color: #FFF1A3; }
+.footer { background: #542505; }
