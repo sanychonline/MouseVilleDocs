@@ -1,6 +1,6 @@
-# CheeseVille - Feed Cheesy Docs
+# CheeseVille - Feed Cheezy Docs
 
-Public product and support site for **CheeseVille - Feed Cheesy** / **Чизвіль - нагодуй Чиззі**. The character is **Чиззі**, catching falling cheese in a three-lane arcade game.
+Public product and support site for **CheeseVille - Feed Cheezy** / **Чизвіль - нагодуй Чиззі**. The character is **Чиззі**, collecting cheese in a playful village-themed three-lane arcade run.
 
 ## Site content
 
