@@ -1,17 +1,16 @@
-# cheeseVille Docs
+# CheeseVille - Feed Cheesy Docs
 
-Official website for **CheeseVille - feed a Cheesy** / **Чизвіль - нагодуй Чиззі**, an iOS arcade game starring Cheesy.
+Public product and support site for **CheeseVille - Feed Cheesy** / **Чизвіль - нагодуй Чиззі**. The character is **Чиззі**, catching falling cheese in a three-lane arcade game.
 
-## Main character
+## Site content
 
-The game's main character is **Cheesy** (**Чиззі**).
+- Uses CheeseVille app assets: character, cheese, game background, icon, and logo.
+- Keeps the golden cheese palette consistent on `index.html`, `support.html`, `privacy.html`, and `terms.html`.
+- Shows the approved Docs screenshots: launch art without a spinner, active gameplay with falling cheese and no Game Over or banner, and English settings.
+- Provides localized support in 17 interface languages.
 
-## Pages
+## Deployment
 
-- `index.html` — product landing page
-- `support.html` — localized support in 17 languages
-- `privacy.html` — privacy policy
-- `terms.html` — terms of use
+The static public site deploys from `main` through `.github/workflows/pages.yml`.
 
-The site is static and deployed to GitHub Pages through
-`.github/workflows/pages.yml`.
+https://sanychonline.github.io/cheeseVilleDocs/
