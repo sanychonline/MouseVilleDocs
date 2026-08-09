@@ -1,5 +1,5 @@
 (() => {
-  const catalog = window.CheeseVillePageTranslations;
+  const catalog = window.MouseVillePageTranslations;
   if (!catalog) return;
   const translations = Object.fromEntries(
     Object.entries(catalog.locales).map(([locale, values]) => [
@@ -48,7 +48,7 @@
   };
   const supported = languages.map(([code]) => code);
   const aliases = { pt: "pt-BR", zh: "zh-Hans" };
-  const storageKey = "cheeseville-language";
+  const storageKey = "mouseville-language";
 
   function normalize(value) {
     if (!value) return null;
@@ -92,7 +92,7 @@
   const requested = normalize(params.get("lang"));
   const saved = normalize(
     localStorage.getItem(storageKey) ||
-    localStorage.getItem("cheeseville-support-language")
+    localStorage.getItem("mouseville-support-language")
   );
   const preferred = navigator.languages?.map(normalize).find(Boolean);
   const initial = requested || saved || preferred || "en";
