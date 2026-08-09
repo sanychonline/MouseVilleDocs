@@ -1190,7 +1190,7 @@ h1 {
   }
 }
 
-/* Shared support and legal pages use MouseVille's golden cheese palette. */
+/* Shared support and legal pages use Cheesy and Cheese's golden cheese palette. */
 .topbar, .home .topbar { background: rgba(137, 65, 14, .94); }
 body:not(.home) { background: radial-gradient(circle at 12% 12%, rgba(255, 211, 92, .38), transparent 22rem), radial-gradient(circle at 88% 18%, rgba(239, 137, 24, .24), transparent 24rem), linear-gradient(180deg, #FFFDF3, #FFF0C5 54%, #F7D28A); }
 .legal-hero { background: radial-gradient(circle at 82% 16%, rgba(255, 211, 92, .52), transparent 23rem), linear-gradient(145deg, #773508, #DF7612 54%, #FFC93D); }
